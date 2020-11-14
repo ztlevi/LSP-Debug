@@ -10,7 +10,6 @@ ENV PYTHONUNBUFFERED 1
 # Install pip requirements
 ADD requirements.txt .
 RUN python -m pip install -r requirements.txt
-RUN python -m pip install debugpy
 
 WORKDIR /code
 ADD . /code

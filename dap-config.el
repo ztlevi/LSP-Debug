@@ -18,3 +18,5 @@
        :remoteRoot "/app"
        :program "__ignored"
        :name "Attach to node process in docker container"))
+
+(setq dap-python-debugger 'debugpy)
