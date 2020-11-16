@@ -1,7 +1,7 @@
 ## Debug by attach using [debugpy](https://github.com/microsoft/debugpy)
 
 ```
-docker build --tag lsp-python-debug:latest .
+docker build --rm --tag lsp-python-debug:latest .
 docker run --rm -ti -p 5678:5678 -v $PWD:/code lsp-python-debug:latest bash
 
 # Start python process
